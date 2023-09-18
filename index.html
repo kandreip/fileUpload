@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c5c731253d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex justify-center items-center">
+   <div class="container">
+        <div class="header"><h1>FILE UPLOAD</h1></div>
+        <div class="uploaded-files js-uploaded-files">
+            <ul id="items-container">
+                <!-- <li>
+                    <div class="item-format"> <i class="page fa-regular fa-file-pdf"></i></div>
+                    <div class="item-progress">
+                        <div class="item-name" id="item-name">PDF</div>
+                        <div class="progress-container">
+                            <div class="progress-bar" id="my-progress-bar">100%</div>
+                        </div>
+                        <div class="file-options">
+                            <div id="share-link">
+                                Share link
+                            </div>
+                            <div id="view-file">
+                                View file
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-options"><i class="trash fa-regular fa-trash-can"></i><div>
+                </li> -->
+                
+            </ul>
+        </div>
+        <div class="upload-section" id="upload-section">
+            <p>Drag and drop files here</p>
+            <p>OR</p>
+            <input type="button" id="my-button" value="SELECT FILES">
+            <input type="file" style="display: none;" id="my-file" />
+        </div>
+   </div>
+   <script src="main.js"></script>
+</body>
+
+</html>

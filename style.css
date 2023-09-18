@@ -1,0 +1,168 @@
+/* Add CSS here */
+*{
+    box-sizing: border-box;   
+}
+
+body{
+    background-color: #eadccf;
+}
+
+.container{
+    border: 2px solid #e06901;
+    background: white;
+    /* min-height: 80vh; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 550px;
+    height: 700px;
+    box-shadow: 20px 20px #e7ceba;
+    max-width: 550px !important;
+}
+
+.header{
+    color: white;
+    background-color: #ff9436;
+    text-align: center;
+    font-weight: 700;
+}
+
+.header h1{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.uploaded-files{
+    padding: 1rem 3rem;
+    width: 100%;
+    height: 100%;
+}
+
+.uploaded-files ul li{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.uploaded-files {
+    max-height: 350px;
+    /* overflow-y: auto; */
+    margin: 0 auto;
+}
+
+#items-container{
+    max-height: 350px;
+    overflow-y: auto;
+    /* margin: 0 auto; */
+    padding-right: 2rem;
+}
+
+#items-container::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgb(226, 216, 216);
+    border-radius: 5px;
+}
+
+#items-container::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 5px;
+}
+
+#uploaded-files {
+    scrollbar-width: thin;
+}
+
+#item-format i:before{
+    font-size: 3rem;
+}
+
+.fa-file-pdf:before, .fa-file-image:before{
+    font-size: 4rem;
+    color: gray;
+}
+
+.item-progress{
+    width: 80%;
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: white;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #6dcff6;
+    text-align: center;
+    line-height: 20px;
+    color: blue;
+    border-radius: 20px;
+}
+
+.item-options {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 22px;
+}
+
+.item-options i:hover{
+    cursor: pointer;
+}
+
+.upload-section{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(37, 36, 36);
+    margin: 0 2rem 2rem;
+    border: 2px dashed blue;
+    padding: 1.5rem 0;
+}
+
+.upload-section #my-button{
+    padding: 8px 32px;
+    background-color: #ff9436;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-bottom: 4px solid #e06901;
+    margin-top: 1rem;
+}
+
+.upload-section #my-button:hover{
+    cursor: pointer;
+}
+
+.upload-section .cloud{
+    bottom: 0;
+    position: absolute;
+    right: 30%;
+}   
+
+.file-options{
+    display: flex;
+    align-self:flex-end;
+}
+
+.file-options div{
+    color: orange;
+    text-decoration: underline;
+    margin-left: 10px;
+    font-size: 0.75rem;
+}
+
+.file-options div:hover{
+    cursor: pointer;
+}
